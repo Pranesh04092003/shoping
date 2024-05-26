@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #555;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
+        strong {
+            color: #777;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .export-btn {
+            display: block;
+            width: 100px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Location Data</h1>
+        <table>
+            <tr>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Timestamp</th>
+                <th>Device Name</th>
+                <th>Device Model</th>
+                <th>Battery Percentage</th>
+                <th>Network Name</th>
+                <th>Wi-Fi Name</th>
+                <th>Wi-Fi Host</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>IP Address</th>
+                <th>Network Tower</th>
+                <th>Charging Status</th>
+                <th>Google Maps</th>
+            </tr>
+            <% locations.forEach(location => { %>
+                <tr>
+                    <td><%= location.latitude %></td>
+                    <td><%= location.longitude %></td>
+                    <td><%= location.timestamp %></td>
+                    <td><%= location.deviceName %></td>
+                    <td><%= location.deviceModel %></td>
+                    <td><%= location.batteryPercentage %>%</td>
+                    <td><%= location.networkName %></td>
+                    <td><%= location.wifiName %></td>
+                    <td><%= location.wifiHost %></td>
+                    <td><%= location.city %></td>
+                    <td><%= location.state %></td>
+                    <td><%= location.country %></td>
+                    <td><%= location.ipAddress %></td>
+                    <td><%= location.networkTower %></td>
+                    <td><%= location.isCharging %></td>
+                    <td><a href="https://www.google.com/maps?q=<%= location.latitude %>,<%= location.longitude %>" target="_blank">Open in Google Maps</a></td>
+                </tr>
+            <% }); %>
+        </table>
+        <button class="export-btn" onclick="exportToExcel()">Export to Excel</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script>
+        function exportToExcel() {
+            /* convert table to worksheet */
+            const ws = XLSX.utils.table_to_sheet(document.querySelector('table'));
+            /* create workbook and add the worksheet */
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, "Location Data");
+            /* generate XLSX file and trigger a download */
+            XLSX.writeFile(wb, "location_data.xlsx");
+        }
+    </script>
+</body>
+</html>
