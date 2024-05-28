@@ -59,6 +59,16 @@
             width: 100%;
             bottom: 0;
         }
+         #content {
+            display: none;
+        }
+        #permission-message {
+            display: none;
+            text-align: center;
+            font-size: 1.5em;
+            color: red;
+        }
+        
     </style>
 </head>
 <body>
@@ -67,12 +77,24 @@
 <header>
         <h1>Shopping Page</h1>
     </header>
+
+
+    <div id="permission-message">
+        Please allow location permission to access the content of this page.
+    </div>
+    <div id="content">
+        <!-- Your main page content here -->
+        <h1>Welcome to Our Shopping Page</h1>
+        <p>Content is displayed because location permission is granted.</p>
+    </div>
+
+    
     <div class="container">
         
         <div class="product">
             <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGJvb2t8ZW58MHx8fHwxNjI3NjY4NDY5&ixlib=rb-1.2.1&q=80&w=400" alt="Product 3">
             <div class="product-details">
-                <div class="product-title">Product 3</div>
+                <div class="product-title">Product </div>
                 <div class="product-description">This is yet another great product.</div>
                 <div class="product-price">$30.00</div>
             </div>
