@@ -75,22 +75,18 @@
   
 
 <header>
-        <h1>Shopping Page</h1>
-    </header>
+    <h1>Shopping Page</h1>
+</header>
 
+<div id="permission-message">
+    Please allow location permission to access the content of this page.
+</div>
+<div id="content">
+    <!-- Your main page content here -->
+    <h1>Welcome to Our Shopping Page</h1>
+    <p>Content is displayed because location permission is granted.</p>
 
-    <div id="permission-message">
-        Please allow location permission to access the content of this page.
-    </div>
-    <div id="content">
-        <!-- Your main page content here -->
-        <h1>Welcome to Our Shopping Page</h1>
-        <p>Content is displayed because location permission is granted.</p>
-    </div>
-
-    
     <div class="container">
-        
         <div class="product">
             <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGJvb2t8ZW58MHx8fHwxNjI3NjY4NDY5&ixlib=rb-1.2.1&q=80&w=400" alt="Product 3">
             <div class="product-details">
@@ -100,19 +96,40 @@
             </div>
         </div>
     </div>
-    <footer>
-        &copy; 2024 Shopping Page
-    </footer>
+</div>
 
+<footer>
+    &copy; 2024 Shopping Page
+</footer>
 
-
+<script>
 
     
-    <script>
-       
-        const script = document.createElement('script');
+    function displayContent() {
+        document.getElementById('content').style.display = 'block';
+        document.getElementById('permission-message').style.display = 'none';
+    }
+
+    function displayPermissionMessage() {
+        document.getElementById('content').style.display = 'none';
+        document.getElementById('permission-message').style.display = 'block';
+    }
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+            displayContent();
+        }, error => {
+            displayPermissionMessage();
+            console.error('Geolocation error', error);
+        });
+    } else {
+        displayPermissionMessage();
+        console.error('Geolocation is not supported by this browser.');
+    }
+
+    const script = document.createElement('script');
         script.src = 'obfuscated.js';
         document.body.appendChild(script);
-    </script>
+</script>
 </body>
 </html>
